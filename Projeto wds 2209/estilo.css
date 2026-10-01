@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f9ff;
+    color: #1a1a1a;
+}
+
+header {
+    background: #0078d4;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo h1 {
+    font-size: 28px;
+}
+
+.windows-icon {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+}
+
+.windows-icon span {
+    background: white;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a :hover {
+    text-decoration: underline;
+}
+
+.hero {
+    min-height: 600px;
+    padding: 80px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #0078d4, #00a4ef);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.botao {
+    display: inline-block;
+    background: white;
+    color: #0078d4;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #e5e5e5;
+}
+
+.logo-grande {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.janela {
+    font-size: 220px;
+    color: white;
+}
+
+.secao {
+    padding: 80px 8%;
+    text-align: center;
+}
+
+.secao h2 {
+    color: #0078d4;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.secao>p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card :hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #0078d4;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.versoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.versoes div {
+    background: #0078d4;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+footer {
+    background: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+.timeline{
+    max-width: 900px;
+    margin: 40px auto;
+    display: grid;
+    gap: 25px;
+}
+
+.historia-card{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+    border-left: 5px solid #0078d4;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.historia-card:hover{
+    transform: translateX(8px);
+}
+
+.historia-card h3{
+    color: #0078d4;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.historia-card p{
+    line-height: 1.7;
+    color: #444;
+}
+
+.destaque{
+    background: #eaf5ff;
+}
+
+.destaque p{
+    max-width: 750px;
+}
